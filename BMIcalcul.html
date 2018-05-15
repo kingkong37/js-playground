@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var num1 = window.prompt("키를 입력해주세요!");
+            var tall = Number(num1);
+            var num2 = window.prompt("몸무게를 입력해주세요!");
+            var weghit = Number(num2);
+
+            BMICalcul(tall, weghit);
+
+            //소수점 2자리까지 표시하고 싶다면?
+
+
+            
+
+            function BMICalcul(a,b){
+                var bmi = a/(b*b);
+                document.write("당신의 bmi는 " + bmi + "입니다.");
+            }            
+        </script>
+    </body>
+</html>
